@@ -1,0 +1,15 @@
+sudo: required
+language: python
+
+services:
+  - docker
+before_install:
+  - docker build -t samdocker12345/predictionpremiumapp .
+
+#script:
+#  -docker run samdocker12345/predictionpremiumapp pytest
+
+after_success:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+
+  - docker push samdocker12345/predictionpremiumapp
