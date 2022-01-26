@@ -157,7 +157,7 @@ class Preprocessing:
                                                 Output: dataframe with categorical values converted to numerical values
                                                 On Failure: Raise Exception
 
-                                                Written By: iNeuron Intelligence
+                                                Written By:Sambit umar behera Intelligence
                                                 Version: 1.0
                                                 Revisions: None
                              """

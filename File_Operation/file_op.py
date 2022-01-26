@@ -58,7 +58,7 @@ class File_Operation:
                     Output: The Model file loaded in memory
                     On Failure: Raise Exception
 
-                    Written By: iNeuron Intelligence
+                    Written By: Sambit Behera
                     Version: 1.0
                     Revisions: None
         """

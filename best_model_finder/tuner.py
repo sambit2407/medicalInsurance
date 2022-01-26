@@ -168,19 +168,19 @@ class Model_Finder:
             raise Exception()
 
 
-data=pd.read_csv('../data/insurance.csv')
-pre=Preprocessing()
-data=pre.outier_treatment(data,columns=['bmi'])
-data=pre.scaling_of_numcol(data)
-data=pre.encode_categorical_col(data)
-x=data.drop('expenses',axis=1)
-y=data['expenses']
-
-train_x,test_x,train_y,test_y=train_test_split(x,y, random_state=355 )
-
-tun=Model_Finder()
-# print(tun.get_best_params_for_randomforest(train_x,train_y))
-print(tun.get_best_params_for_xgboost(train_x,train_y))
+# data=pd.read_csv('../data/insurance.csv')
+# pre=Preprocessing()
+# data=pre.outier_treatment(data,columns=['bmi'])
+# data=pre.scaling_of_numcol(data)
+# data=pre.encode_categorical_col(data)
+# x=data.drop('expenses',axis=1)
+# y=data['expenses']
+#
+# train_x,test_x,train_y,test_y=train_test_split(x,y, random_state=355 )
+#
+# tun=Model_Finder()
+# # print(tun.get_best_params_for_randomforest(train_x,train_y))
+# print(tun.get_best_params_for_xgboost(train_x,train_y))
 
 
 

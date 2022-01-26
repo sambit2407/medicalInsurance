@@ -188,3 +188,39 @@
        'Predicted_Expenses'],
       dtype='object')
 2022-01-10/18:40:21		End of Prediction
+2022-01-22/17:51:13		Start of Prediction
+2022-01-22/17:51:13		Entered the get_data method of the Data_Getter class
+2022-01-22/17:51:13		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-01-22/17:51:13		data input col:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2022-01-22/17:51:13		Entered the is_null_present method of the Preprocessor class
+2022-01-22/17:51:13		Data has been treated
+2022-01-22/17:51:13		Entered the encode_categorical_columns method of the Preprocessor class
+2022-01-22/17:51:13		data:Index(['sex', 'smoker', 'region'], dtype='object')
+2022-01-22/17:51:13		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-01-22/17:51:13		Entered the scaling_of_Numcol method of the Preprocessor class
+2022-01-22/17:51:13		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-22/17:51:13		Entered the load_model method of the File_Operation class
+2022-01-22/17:51:13		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2022-01-22/17:51:14		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2022-01-22/17:51:14		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region',
+       'Predicted_Expenses'],
+      dtype='object')
+2022-01-22/17:51:14		End of Prediction
+2022-01-22/18:02:48		Start of Prediction
+2022-01-22/18:02:48		Entered the get_data method of the Data_Getter class
+2022-01-22/18:02:48		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-01-22/18:02:48		data input col:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2022-01-22/18:02:48		Entered the is_null_present method of the Preprocessor class
+2022-01-22/18:02:48		Data has been treated
+2022-01-22/18:02:48		Entered the encode_categorical_columns method of the Preprocessor class
+2022-01-22/18:02:48		data:Index(['sex', 'smoker', 'region'], dtype='object')
+2022-01-22/18:02:48		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-01-22/18:02:48		Entered the scaling_of_Numcol method of the Preprocessor class
+2022-01-22/18:02:48		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-22/18:02:48		Entered the load_model method of the File_Operation class
+2022-01-22/18:02:48		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2022-01-22/18:02:49		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region'], dtype='object')
+2022-01-22/18:02:49		prediction:Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region',
+       'Predicted_Expenses'],
+      dtype='object')
+2022-01-22/18:02:49		End of Prediction

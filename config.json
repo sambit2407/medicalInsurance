@@ -1,7 +1,7 @@
 {
   "params": {
     "upload_location":"predictionFromDB//",
-    "server_location": "mongodb://localhost:27017/",
-    "sampleCSV_location":"test_file\\SampleCSV.csv"
+    "server_location": "mongodb://mongo:27017/",
+    "sampleCSV_location":"test_file//SampleCSV.csv"
   }
 }

@@ -52,8 +52,7 @@ class Training_model:
             raise Exception
 
 
-trn=Training_model()
-trn.train_model()
+
 
 
 

@@ -1381,3 +1381,7 @@
 2021-12-30/18:39:58		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
 2021-12-30/18:39:58		Entered the load_model method of the File_Operation class
 2021-12-30/18:39:58		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
+2022-01-22/17:59:54		Entered the scaling_of_Numcol method of the Preprocessor class
+2022-01-22/17:59:54		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-01-22/17:59:54		Entered the load_model method of the File_Operation class
+2022-01-22/17:59:54		Model File randomForest loaded. Exited the load_model method of the Model_Finder class
