@@ -24,7 +24,7 @@ class Data_Getter:
         Output: A pandas DataFrame.
         On Failure: Raise Exception
 
-         Written By: iNeuron Intelligence
+         Written By: Sambit kumar Behera
         Version: 1.0
         Revisions: None
 
